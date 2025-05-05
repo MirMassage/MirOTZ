@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: telegram-review-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python "otziv.py"
