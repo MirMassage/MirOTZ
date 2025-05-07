@@ -16,7 +16,7 @@ import os
 load_dotenv()  # Это загрузит все переменные из .env файла
 
 API_TOKEN = os.getenv('API_TOKEN')  # Получаем API_TOKEN из .env файла
-ADMINS = [140898735, 6705001934]  # замени на свой Telegram user_id
+ADMINS = [140898735, 6705001934, 7310818609, 7947666885]  # замени на свой Telegram user_id
 
 logging.basicConfig(level=logging.INFO)
 
